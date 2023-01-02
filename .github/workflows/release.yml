@@ -2,11 +2,6 @@ name: Release
 
 on:
   push:
-    branches:
-      - main
-      - alpha
-      - beta
-
 jobs:
   test:
     name: Test and lint
